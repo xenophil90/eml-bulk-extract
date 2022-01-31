@@ -33,5 +33,5 @@ find . -name 'textfile*' -exec rm {} \;
 ## 5. Delete all empty folders
 
 ```
-rm -r */
+find . -empty -type d -delete
 ```
