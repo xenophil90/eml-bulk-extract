@@ -1,5 +1,7 @@
 # My workflow to bulk-extract email attachments
 
+This workflow can be used to extract all attachments from a bunch of .eml files.
+
 ## 1. Randomly name every .eml file
 
 ```
