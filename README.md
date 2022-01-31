@@ -21,3 +21,9 @@ for file in *.eml; do
     ripmime -i $file -v -d $file-Attachements
 done
 ```
+
+## 4. Delete all text files
+
+```
+find . -name 'textfile*' -exec rm {} \;
+```
