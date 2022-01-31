@@ -35,3 +35,10 @@ find . -name 'textfile*' -exec rm {} \;
 ```
 find . -empty -type d -delete
 ```
+
+## 6. What then?
+After that, e. g. PDF files can be OCR'd...
+
+```
+find . -name '*.pdf' | parallel --tag -j 2 ocrmypdf '{}' '{}'
+```
